@@ -8,6 +8,6 @@
 * Not build static html files
 
 [GitHub](https://github.com/wenqit/)
-[Get Started](https://wenqis.com)
+[Get Started](#wenqis)
 
 
