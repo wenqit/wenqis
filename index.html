@@ -37,6 +37,10 @@
 
   <script>
     window.$docsify = {
+      cusdis: {
+      host: 'https://cusdis.com', // change the host if you are using self-hosted Cusdis
+      appId: '0fdd7e66-755a-4123-b0a1-83e2c9f8163b',
+    },
       search: 'auto', // 默认值
 
       // 支持本地化
@@ -70,17 +74,8 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
-
-  <!-- 评论功能 -->
-  <div id="cusdis_thread"
-  data-host="https://cusdis.com"
-  data-app-id="0fdd7e66-755a-4123-b0a1-83e2c9f8163b"
-  data-page-id="{{ PAGE_ID }}"
-  data-page-url="{{ PAGE_URL }}"
-  data-page-title="{{ PAGE_TITLE }}"
-></div>
-  <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
-
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<script src="https://cusdis.com/js/cusdis.docsify.js"></script> <!-- change the host if you are using self-hosted Cusdis -->
 
 </body>
 </html>
